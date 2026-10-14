@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#0b1324">
+
+  <meta name="description"
+        content="Compare South African casino welcome bonuses, wagering requirements and minimum deposits in one place.">
+
+  <title>BonusCompare | Casino Bonus Comparison SA</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+
+      <a class="logo" href="./"
+         aria-label="BonusCompare homepage">
+        <span aria-hidden="true">◆</span>
+        BonusCompare
+      </a>
+
+      <span class="region">
+        South Africa
+      </span>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <div class="container">
+        <span class="eyebrow">
+          THE SMARTER WAY TO COMPARE
+        </span>
+      
+        <h1>
+          Every bonus has a story.<br>
+          <span class="hero-accent">Know the details.</span>
+        </h1>
+      
+        <p>
+          Discover and compare South African casino welcome
+          offers in one beautifully simple place. Explore
+          bonus values, wagering conditions and minimum
+          deposits without digging through multiple websites.
+        </p>
+      
+        <div class="hero-actions">
+          <a href="#offers" class="hero-primary">
+            Explore offers ↗
+          </a>
+          <a href="#comparison" class="hero-secondary">
+            Compare side by side →
+          </a>
+        </div>
+      
+        <div class="hero-features">
+          <span>✓ Source-linked information</span>
+          <span>✓ Transparent comparison</span>
+          <span>✓ AI-assisted extraction</span>
+        </div>
+      
+        <div class="stats">
+          <div class="stat">
+            <strong id="casino-count">—</strong>
+            <span>Offers tracked</span>
+          </div>
+          <div class="stat">
+            <strong>ZAR</strong>
+            <span>Currency</span>
+          </div>
+          <div class="stat">
+            <strong>AI</strong>
+            <span>Data processing</span>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- OFFERS SECTION -->
+    <section class="offers container"
+             aria-labelledby="offers-title">
+
+      <div class="section-heading">
+
+        <h2 id="offers-title">
+          Featured casino offers
+        </h2>
+
+        <p>
+          Compare offers extracted from a public
+          South African casino comparison source.
+        </p>
+
+      </div>
+
+      <!-- LOADING AND ERROR STATUS -->
+      <div id="status"
+           class="status"
+           role="status"
+           aria-live="polite">
+        Loading casino bonuses...
+      </div>
+
+      <!-- DYNAMIC CASINO CARDS -->
+      <div id="casino-list"
+           class="casino-grid"
+           aria-label="Casino bonus offers">
+      </div>
+
+      <!-- COMPARISON TABLE -->
+      <section class="comparison-section"
+               aria-labelledby="comparison-title">
+
+        <h2 id="comparison-title">
+          Detailed bonus comparison
+        </h2>
+
+        <p class="comparison-description">
+          Review each offer side by side, including
+          wagering conditions and minimum deposits.
+        </p>
+
+        <div class="table-wrapper"
+             role="region"
+             aria-label="Scrollable casino comparison table"
+             tabindex="0">
+
+          <table class="comparison-table">
+
+            <thead>
+              <tr>
+                <th scope="col">Casino</th>
+                <th scope="col">Welcome bonus</th>
+                <th scope="col">Wagering requirement</th>
+                <th scope="col">Minimum deposit</th>
+                <th scope="col">Source</th>
+              </tr>
+            </thead>
+
+            <tbody id="casino-table-body">
+              <!-- Populated by script.js -->
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </section>
+
+      <!-- DISCLAIMER -->
+      <p class="disclaimer">
+        <strong>Important:</strong>
+        Bonus information is provided for comparison
+        and demonstration purposes only.
+        Offers, wagering conditions and eligibility
+        requirements may change.
+        Always verify the latest terms with the
+        original source. Adults 18+ only.
+        Gamble responsibly.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container">
+
+      <p>
+        © BonusCompare — AI-Assisted Web Developer
+        Assessment Project
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
